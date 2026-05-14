@@ -155,7 +155,7 @@ Turns the LED and buzzer on or off to indicate obstacle detection status.
 
 ### Upload Steps
 1. Clone or download this repository
-2. Open `obstacle_avoidance.ino` in Arduino IDE
+2. Open `ObstacleAvoidingCar.ino` in Arduino IDE
 3. Select **Board:** Arduino UNO
 4. Select the correct **Port**
 5. Click **Upload**
