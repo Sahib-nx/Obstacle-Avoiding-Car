@@ -146,16 +146,6 @@ Turns the LED and buzzer on or off to indicate obstacle detection status.
 
 ---
 
-## 📂 File Structure
-
-```
-/
-├── obstacle_avoidance.ino    ← Main Arduino sketch
-└── README.md                 ← This file
-```
-
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
