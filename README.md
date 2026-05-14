@@ -1,12 +1,12 @@
 # 🤖 Arduino Obstacle-Avoiding Robot Car
 
-An Arduino UNO-based two-wheeled robot that autonomously navigates around obstacles using an HC-SR04 ultrasonic sensor and differential drive steering — **no servo motor required**.
+An Arduino UNO-based two-wheeled robot that autonomously navigates around obstacles using an HC-SR04 ultrasonic sensor and differential drive steering , **no servo motor required**.
 
 ---
 
 ## 📌 Project Overview
 
-This robot was built and programmed to demonstrate real-world autonomous navigation using affordable, widely available components. It started as a simple forward-or-stop robot and was upgraded to full obstacle avoidance logic with directional decision-making — checking right, then left, and falling back to reverse-and-retry if both paths are blocked.
+This robot was built and programmed to demonstrate real-world autonomous navigation using affordable, widely available components. It started as a simple forward-or-stop robot and was upgraded to full obstacle avoidance logic with directional decision-making , checking right, then left, and falling back to reverse-and-retry if both paths are blocked.
 
 ---
 
@@ -25,7 +25,7 @@ distance (cm) = pulse duration (µs) × 0.034 / 2
 - **Angle:** ~15° cone
 
 ### Differential Drive Steering
-Instead of a servo motor to rotate the sensor, this robot uses **differential drive** — controlling each wheel independently to steer:
+Instead of a servo motor to rotate the sensor, this robot uses **differential drive** , controlling each wheel independently to steer:
 
 | Action | Left Wheel | Right Wheel |
 |---|---|---|
@@ -49,8 +49,8 @@ By driving one wheel and stopping the other, the robot pivots in place by a fixe
 | 2× DC Geared Motors | Drive the left and right wheels |
 | LED | Visual alert when obstacle is detected |
 | Buzzer (passive) | Audio alert when obstacle is detected |
-| 9V / 12V Battery Pack | Power supply for motors |
-| Jumper Wires + Chassis | Physical assembly |
+| 2x 18650 Battery Pack + Holder | Power supply for motors |
+| Jumper Wires + Wooden Chassis | Physical assembly |
 
 ---
 
@@ -189,7 +189,7 @@ Turns the LED and buzzer on or off to indicate obstacle detection status.
 
 ## ⚠️ Known Limitations
 
-- Turning angle is time-based, so it can drift on different surfaces — calibrate `TURN_90_TIME` for your floor.
+- Turning angle is time-based, so it can drift on different surfaces , calibrate `TURN_90_TIME` for your floor.
 - The single front-facing sensor cannot detect obstacles to the side while moving forward.
 - Very narrow gaps or thin obstacles (like chair legs) may not reflect enough ultrasonic signal to be detected reliably.
 - Battery voltage drop over time can affect motor speed and therefore turning accuracy.
